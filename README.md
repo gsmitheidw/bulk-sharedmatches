@@ -1,11 +1,13 @@
 # bulk-sharedmatches
+
 Powershell script to partially-automate the opening of shared DNA matches on [Ancestry.com](https://www.ancestry.com)
 
 This is to aid anyone using the [Leeds Method](https://www.danaleeds.com/the-leeds-method/) to categorise DNA matches.
 I have written this to minimise the number of keyboard presses and mouse clicks to open a batch of relatives profile pages
 in seperate browser tabs, then browse to the shared matches section of each person's page. 
 
-Ancestry.com does not provide any public api access. It may be possible to achieve this with Selenium, sending keypresses is somewhat primitive - however it is not likely to overload Ancestry's servers particularly with timings and small batches as currently set.
+Ancestry.com does not provide any public api access. It may be possible to achieve this with [Selenium](https://www.selenium.dev/), sending keypresses is somewhat primitive - however it is not likely to overload Ancestry's servers particularly with timings and small batches as currently set. This script runs without any software installation or 3rd party products. 
+
 
 ## Requirements:
 
@@ -38,5 +40,11 @@ function OpenProfiles {
 Change 1..8 to 1..7 to do private trees, switch it back to 8 for public trees. 
 ***Remember to change it in the browser too or the script will open/click randomly!***
 These must be changed in tandem.
+
+## Final Notes:
+
+- If Ancestry changes their web design the tab stops will change and the code will break.
+- This does not work with other sites like MyHeritage, FT DNA, 23andMe etc. 
+- If the script fails or you forget to keep the public/private tree profiles in tandem with the 7/8 toggle above, just quickly switch from browser window to powershell and stop the script: :red_square:
 
 

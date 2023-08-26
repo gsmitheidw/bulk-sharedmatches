@@ -21,7 +21,7 @@ Ancestry.com does not provide any public api access. It may be possible to achie
 3. Open the script from within Visual Studio Code or Powershell ISE (or command line powershell if you prefer)
 4. Run the script (play button :arrow_forward: ) and **immediately** switch to your own browser window
 5. Hands off!! Let this run until it has opened 15 profile pages and cycled through each one opening the shared matches. . It will beep once when completed a batch. Do not use the mouse or keyboard whilst a batch is in progress.
-6. You will have 16 browser tabs, the first is your list of shared matches, go to the second one <kbd>Ctrl</kbd> + <kbd>2</kbd>. If there are no shared matches close the tab with <kbd>ctrl</kbd> and <kbd>w</kbd>... continue until you see matches. Tag as appropiately and continue closing tabs until you reach the end of the batch. 
+6. You will have 16 browser tabs, the first is your list of shared matches, go to the second one <kbd>Ctrl</kbd> + <kbd>2</kbd>. If there are no shared matches close the tab with <kbd>ctrl</kbd> + <kbd>w</kbd>... continue until you see matches. Tag as appropiately and continue closing tabs until you reach the end of the batch. 
 7. To start the next batch, go back to the script, run again and switch straight back to the browser.
 
 ## Private trees:
@@ -46,5 +46,4 @@ These must be changed in tandem.
 - If Ancestry changes their web design the tab stops will change and the code will break.
 - This does not work with other sites like MyHeritage, FT DNA, 23andMe etc. 
 - If the script fails or you forget to keep the public/private tree profiles in tandem with the 7/8 toggle above, just quickly switch from browser window to powershell and stop the script: :red_square:
-
 

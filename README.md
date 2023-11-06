@@ -27,7 +27,7 @@ Ancestry.com does not provide any public api access. It may be possible to achie
 ## Private trees:
 
 In this section of code:
-```
+```powershell
 function OpenProfiles {
     # toggle 8 for public linked trees and 7 for private trees. Cannot do both!
     1..8 | ForEach-Object {
